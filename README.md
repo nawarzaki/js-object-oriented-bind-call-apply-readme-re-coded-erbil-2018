@@ -37,9 +37,9 @@ greet.apply(sally)
 // my name is sally, hi!
 
 greet.call(sally)
-// my name is sally, hi!
+ my name is sally, hi!
 
-```
+``
 
 As you see above, we can use `call()` or `apply()` to invoke a function with an explicit value for `this`.  So, instead of invoking the `greet()` function directly, we're invoking the `call()` method or the `apply()` method of the `greet` function.  And yes, our `greet` function can have a method, because in JavaScript functions are first class objects.   
 
